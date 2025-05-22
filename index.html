@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Webpage Title (will show on tab) -->
     <title>Professional Portfolio</title>
+    
+    <link rel="icon" href="images/favicon.ico" type="favicon.ico">
+    
     <style>
         /* Basic styling for the page */
         body {
@@ -25,14 +28,16 @@
         nav {
             margin: 1rem 0;
         }
-        nav a {
-            color: #ac3232;
-            text-decoration: dotted;
-            margin: 0 1rem;
+        nav a:hover {
+            color: #ff6347;
+            text-decoration: underline;
+        }
+        .btn {
+            transition: background-color .3s ease;
         }
         section {
-            padding: 2rem;
-            border-bottom: 1px solid #c08989;
+            padding: 2rem auto;
+            max-width: 800px;
         }
         footer {
             text-align: center;
